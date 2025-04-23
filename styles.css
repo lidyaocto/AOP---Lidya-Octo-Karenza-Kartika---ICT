@@ -23,6 +23,7 @@ body {
 p {
     max-width: 700px;
     justify-content: center;
+    font-family: Garamond (serif);
 }
 
 button {
