@@ -5,7 +5,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Segoe UI', sans-serif, Garamond (serif);
+  font-family: 'Segoe UI', sans-serif, 'Garamond (serif)';
 }
 
 .container {
