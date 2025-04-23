@@ -13,7 +13,7 @@ body {
   border: 4px double #ff6550;
   border-radius: 25px;
   padding: 30px 40px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  box-shadow: 0 0 7em #E51B1A;
   text-align: center;
   max-width: 400px;
   width: 100%;
