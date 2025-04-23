@@ -25,6 +25,9 @@ p {
     justify-content: center;
     font-family: Garamond (serif);
 }
+p style {
+  font-family: Garamond (serif);
+}
 
 button {
   margin-top: 10px;
