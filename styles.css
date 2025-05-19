@@ -1,81 +1,31 @@
-body {
-  background: Linear-gradient(to bottom right, #201610, #f6d7b6);
-  margin: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Segoe UI', sans-serif, 'Garamond (serif)';
-}
-
-.container {
-  background: white;
-  border: 4px double #ff6550;
-  border-radius: 25px;
-  padding: 30px 40px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-  text-align: center;
-  max-width: 350px;
-  width: 100%;
-  color: #fff;
-}
-
-p {
-    max-width: 700px;
-    justify-content: center;
-}
-
-button {
-  margin-top: 10px;
-  padding: 10px 20px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  background: #007bff;
-  color: white;
-  border-radius: 8px;
-  transition: background 0.3s ease;
-}
-
-button:hover {
-  background: #0056b3;
-}
-
-iframe {
-  border-radius: 12px;
-}
-
-h2 {
- color: #333;
- margin-bottom:15px;
- text-align: center;
-
-}
-
-img {
-  width: 100%;
-  max-width: 300px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-
-#overlay {
-  display: none;
-position: fixed;
-top: 0; left: 0;
-width: 100%;
-height: 100%;
-background: rgba(0, 0, 0, 0.5);
-z-index: 1;
-}
-
-#Alert {
-  display: none;
-position: fixed;
-top: 50%; left: 50%;
-border-radius: 25px;
-transform: translate(-50%, -50%);
-background: white; 
-box-shadow: 0 0 7em #E51B1A;
-padding: 30px 40px;
-}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ICT Final Project - Halaman Utama</title>
+	<link rel="icon" type="image/png"
+	href="https://www.santa-laurensia.com/sutera/wp-content/uploads/2024/10/logo-las-286x300-1.png"> <!-- Icon logo Laurensia-->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class="sliders">
+		<label class="switch"> <!-- Slider checkbox darkmode-->
+			<input type="checkbox" id="dark-mode">
+			<span class="slider"></span>
+		</label>
+		<span class="darkmodetext">Mode Gelap</span>
+	</div>
+	<center>
+		<div class="container"> <!-- Container box tengah-->
+			<img src="https://www.santa-laurensia.com/sutera/wp-content/uploads/2024/10/logo-las-286x300-1.png" class="logo" alt="Logo Laurensia">
+			<h1>Selamat Datang di Website Kami!</h1>
+			<a href="indexcyber.html"><button onclick="Cybersecurity()">Cybersecurity</button></a> <!-- Tombol untuk ke html 2 (cybersecurity)-->
+			<a href="indexbooth.html"><button onclick="photobooth()">Photobooth</button></a> <!-- Tombol untuk ke html 3 (photobooth)-->
+			<a href="indexabout.html"><button onclick="about()">About</button></a> <!-- Tombol untuk ke html 4 (profile developer)-->
+		</div>
+	</center>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!-- Agar sweet alert nampak-->
+	<script src="script.js"></script>
+</body>
+</html>
